@@ -1,7 +1,7 @@
 import sys
 def main():
     """
-    The main script funtion.
+    The main script function.
     We get the user data and combine it to make a new key in the dictionary [band_name]
     we then exit with a success exit code.
 
@@ -34,7 +34,7 @@ def prompt_details(band_dict):
 
     # Prompt the user for their home city and pet name.
     # If the response is empty, then we ask again until we get an answer.
-    # We remove all whitespace from the user input, and make it lowecase.
+    # We remove all whitespace from the user input, and make it lowercase.
 
     while not band_dict['home_city']:
         band_dict['home_city'] = input("Please enter your home city: ").strip().lower()
